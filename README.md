@@ -1,5 +1,11 @@
-🎫 Auto Ticket Classification — ServiceNow
-📌 Project Overview
+<img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/dfe7e0bb-896a-4fe2-aefc-63d39b58cbba" />
+
+<img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/ffda076e-426c-42ef-ba7b-c755cadac8b8" />
+
+
+
+Auto Ticket Classification — ServiceNow
+ Project Overview
 
 Auto Ticket Classification is a ServiceNow-based project that automatically classifies incoming support tickets and assigns them to the appropriate category based on the information provided in the ticket.
 
@@ -7,7 +13,7 @@ The project was developed and tested using a ServiceNow Developer Instance.
 
 The objective is to reduce manual ticket classification, improve ticket routing, and make the incident management process more efficient.
 
-🎯 Objectives
+# Objectives
 
 Automatically classify incoming tickets.
 
@@ -21,7 +27,7 @@ Automatically populate relevant ticket fields.
 
 Demonstrate automation capabilities within ServiceNow.
 
-🏗️ ServiceNow Environment
+# ServiceNow Environment
 
 The project was implemented using:
 
@@ -45,7 +51,7 @@ Server-side JavaScript
 
 ServiceNow Form and List views
 
-🔄 Project Workflow
+# Project Workflow
         ┌─────────────────────┐
         │   User Creates      │
         │      Ticket         │
@@ -79,7 +85,7 @@ ServiceNow Form and List views
         │ Classified Incident │
         └─────────────────────┘
 
-🗃️ ServiceNow Table
+#ServiceNow Table
 
 The primary table used for the project is:
 
@@ -98,7 +104,7 @@ Priority	Incident priority
 Assignment Group	Team responsible for the ticket
 Assigned To	Individual handling the ticket
 State	Current incident state
-🧠 Ticket Classification
+#Ticket Classification
 
 The classification logic analyzes information entered into the ticket, particularly the Short Description and/or Description fields.
 
@@ -114,7 +120,7 @@ Email is not working	Software
 
 The categories and classification rules can be customized according to the organization's requirements.
 
-⚙️ ServiceNow Components Used
+# ServiceNow Components Used
 1. Incident Form
 
 The Incident form is used by users or Service Desk agents to create and manage tickets.
@@ -167,7 +173,7 @@ Example server-side logic:
 
 The above is an example implementation. The actual classification logic can be modified based on the rules configured in the Developer Instance.
 
-🔀 Automated Ticket Routing
+# Automated Ticket Routing
 
 After classification, the incident can be routed to the appropriate Assignment Group.
 
@@ -188,7 +194,7 @@ Network Support
 
 This helps reduce the need for Service Desk agents to manually determine the appropriate support team.
 
-🔧 Flow Designer
+# Flow Designer
 
 The project can also use Flow Designer to automate the classification and routing process.
 
@@ -224,7 +230,7 @@ Assign Assignment Group
 
 Update Category/Subcategory
 
-📝 Example
+#Example
 Input Incident
 Short Description:
 Unable to connect to office Wi-Fi
@@ -248,7 +254,7 @@ Network Classification
    ↓
 Network Support Assignment
 
-🧪 Testing
+#Testing
 
 The classification logic was tested using different types of incident descriptions.
 
@@ -263,7 +269,7 @@ Test Case	Input	Expected Result
 
 Testing was performed within the ServiceNow Developer Instance by creating and updating incident records.
 
-📊 Benefits
+# Benefits
 
 Reduces manual ticket categorization.
 
@@ -277,7 +283,7 @@ Helps Service Desk teams handle tickets more efficiently.
 
 Demonstrates ServiceNow automation and scripting capabilities.
 
-🚀 Future Enhancements
+#Future Enhancements
 
 The project can be extended with more advanced ServiceNow capabilities:
 
@@ -299,7 +305,9 @@ Automated notification to support teams.
 
 Performance dashboards and classification reports.
 
-📚 ServiceNow Concepts Demonstrated
+<img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/47f8c891-cf87-4a50-bbd5-cdd45ab4e222" />
+
+ ServiceNow Concepts Demonstration
 
 This project provides practical experience with:
 
@@ -331,9 +339,12 @@ Ticket Categorization
 
 Incident Routing
 
-👨‍💻 Author
+ Author:
 
-Your Name
+-TAMILVANAN.S — ServiceNow Development
+-VASUDEVAN.M  — Classification Logic
+-DIVYASHREE.S— Testing & Documentation
+-SATHISHKUMAR.M — Workflow / Automation
 
 Project
 
